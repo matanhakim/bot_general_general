@@ -3,6 +3,7 @@ name: general_general_bot
 on:
   schedule:
     - cron: '0,10 * * * *'
+  push:
 
 jobs:
   general_general_bot-post:
