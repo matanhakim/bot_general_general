@@ -17,6 +17,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: r-lib/actions/setup-r@master
       - name: Install rtweet package
-        run: Rscript -e 'install.packages("tidyverse", "rtweet" dependencies = TRUE)'
+        run: Rscript -e 'install.packages(c("tidyverse", "rtweet"), dependencies = TRUE)'
       - name: Create and post tweet
         run: Rscript bot_general_general.R
