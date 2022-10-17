@@ -33,5 +33,5 @@ tweet <- df %>%
 # Post the tweet to Twitter
 post_tweet(
   status = tweet,
-  token = londonmapbot_token
+  token = general_general_bot_token
 )
