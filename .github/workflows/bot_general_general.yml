@@ -2,8 +2,7 @@ name: general_general_bot
 
 on:
   schedule:
-    - cron: '0,10 * * * *'
-  push:
+    - cron: '30 7,19 * * *'
 
 jobs:
   general_general_bot-post:
