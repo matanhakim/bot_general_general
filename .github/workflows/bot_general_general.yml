@@ -1,8 +1,8 @@
 name: general_general_bot
 
-on:
-  schedule:
-    - cron: '30 7,19 * * *'
+# on:
+#   schedule:
+#     - cron: '30 7,19 * * *'
 
 jobs:
   general_general_bot-post:
